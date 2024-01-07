@@ -25,6 +25,12 @@
     background: #F15B22;
     border: 0;
 }
+.title{
+   color: #151414;
+   font-size: 40px;
+   font-weight: 700; 
+   margin-bottom: 25px;
+}
 
 
 /* header design */
@@ -48,4 +54,26 @@ header {
     height: 100%;
     width: 100%;
    
+}
+main{
+    max-width: 70%;
+    margin: 140px auto;
+}
+.failure{
+    display: flex;
+    justify-content: space-between;
+}
+.failure-description{
+    padding-top: 230px;
+    margin-left:90px ;
+}
+.failure-description ul {
+    list-style-type: '\2713';
+    padding: 15px;
+    
+    
+
+}
+.failure-description ul li {
+    padding-left: 10px;
 }
