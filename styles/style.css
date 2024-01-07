@@ -31,6 +31,21 @@
    font-weight: 700; 
    margin-bottom: 25px;
 }
+.plan-item{
+    text-align: center;
+}
+.sub-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 18px;
+}
+.plan-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 
 
 /* header design */
@@ -59,6 +74,8 @@ main{
     max-width: 70%;
     margin: 140px auto;
 }
+
+/* failure part design */
 .failure{
     display: flex;
     justify-content: space-between;
@@ -76,4 +93,20 @@ main{
 }
 .failure-description ul li {
     padding-left: 10px;
+}
+
+/* plan part design */
+.plan-title{
+    margin-top: 130px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
 }
